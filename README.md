@@ -7,29 +7,6 @@
 
 因服务器到期，暂时关闭以下站点，请大家阅读仓库即可，感谢支持。
 
-
-> ~~[直通点](https://light-city.club/sc/)~~
-
-
-
-### 关于作者
-
-公众号已开放两大入口，分别是专辑与菜单，可以直接在微信公众号上阅读《C++ 那些事》内容，配上该仓库的代码，将会非常的爽，建议大家关注一波。
-
-个人公众号：guangcity
-
-![](https://light-city.club/sc/assets/images/wechat.jpg)
-
-欢迎大家反馈及 C++ 交流，本人在微信创建了 C++ 那些事交流群，优质的 C++ 资源交流区，期待大家关注上面公众号，点击公众号右下角->联系我，拉你入群。
-
----
-
-
-另外，下面是我自己建立的知识星球，会带大家做一些小项目以及源码解读等方面成长。
-
-![](https://www.hualigs.cn/image/60a24728bb736.jpg)
-
-
 ### 项目运行
 
 - **代码环境**
@@ -128,9 +105,12 @@
 #### 2.2 [重点实战练习](./practical_exercises/key_exercises/)
 
 ├── [中括号重载.cpp](./practical_exercises/key_exercises/中括号重载.cpp)
+
 ├── [时钟++运算符重载.cpp](./practical_exercises/key_exercises/时钟++运算符重载.cpp)
+
 ├── [运算符重载之强制转换.cpp](./practical_exercises/key_exercises/运算符重载之强制转换.cpp)
-└── [重载圆括号的时钟.cpp](./practical_exercises/key_exercises/重载圆括号的时钟.cpp)
+
+├── [重载圆括号的时钟.cpp](./practical_exercises/key_exercises/重载圆括号的时钟.cpp)
 
 ├── [函数模板.cpp](./practical_exercises/key_exercises/函数模板.cpp)
 
@@ -159,7 +139,7 @@ C++2.0 是一个简称，意为「现代 C++」，包括 C++11/14/17/20。
 
 #### 3.1 [C++11 新特性](./c++2.0/c++11)
 
-- [Variadic Templates](./c++2.0/c++11/variadic)
+- [可变参数模板Variadic Templates](./c++2.0/c++11/variadic)
 
 - Spaces in Template Expressions
 
