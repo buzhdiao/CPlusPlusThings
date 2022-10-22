@@ -1,6 +1,4 @@
-//
-// Created by light on 19-11-4.
-//
+/* Created by light on 19-11-4. */
 
 #include <iostream>
 
