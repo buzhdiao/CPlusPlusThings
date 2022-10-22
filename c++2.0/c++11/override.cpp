@@ -6,19 +6,27 @@
 
 using namespace std;
 
-class Base {
+/*
+    描述: override保留字表示当前函数重写了基类的虚函数。
+    目的:
+        1.在函数比较多的情况下可以提示读者某个函数重写了基类虚函数（表示这个虚函数是从基类继承，不是派生类自己定义的）
+        2.强制编译器检查某个函数是否重写基类虚函数，如果没有则报错。
+    用法:在类的成员函数参数列表后面添加该关键字既可。
+*/
+
+class Base
+{
 public:
     Base(){}
+    // 表示新定义了一个虚函数，名称是func
     virtual void func() {}
 };
-class Derivered:public Base{
-    virtual void func(int) override {}  //error: ‘virtual void Derivered::func(int)’ marked ‘override’, but does not override
+class Derivered:public Base
+{
+    virtual void func(int) override {}  //编译报错: error: ‘virtual void Derivered::func(int)’ marked ‘override’, but does not override
 };
-// override用于虚函数，上面的virtual void func(int)实际上不是重写父类的虚函数，而是定义一个新的虚函数，
-// 我们的本意是重写虚函数，当不加overrride的时候,这样写编译器不会报错，
-// 那如果像下面加上override的话，则会报错，表示告诉了编译器，我确实要重写，但写错了，没有重写，于是就报错了,
-// 这样就能给我们对虚函数的重写做检查!
 
-int main() {
-
+int main()
+{
+    return 0;
 }
